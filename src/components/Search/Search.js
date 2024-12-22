@@ -39,7 +39,7 @@ function Search() {
                 <table>
                     <thead>
                         <tr>
-                            <th>BR Pronuciation</th>
+                            <th>BR Pronunciation</th>
                         </tr>
                     </thead>
                     <tbody>
