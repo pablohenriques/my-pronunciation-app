@@ -8,7 +8,7 @@ async function getPronunciation(word) {
             temperature: 0.0
         }
     });
-    const prompt = `Informe a palavra '${word}' para o português como um brasileiro a pronunciaria. Informe apenas a pronúncia, sem explicações.`;
+    const prompt = `Informe a palavra '${word}' para o português como um brasileiro a pronunciaria. Informe apenas a pronúncia, sem explicações. Não traduza para o português, apenas respostas em inglês.`;
 
     try {
         const result = await model.generateContent(prompt);
